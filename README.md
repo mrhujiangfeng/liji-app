@@ -2,13 +2,14 @@
 
 粒迹是一款为慢性粒细胞白血病患者设计的 Android 随访记录工具，帮助整理血常规、生化、融合基因和每天的用药情况。数据默认只保存在自己的手机里，不需要注册账号，也没有广告。
 
-[下载 Android 版 0.5.1](../../releases/latest/download/Liji-CML-Tracker-0.5.1.apk) · [查看图文使用说明](USER_GUIDE.md) · Android 7.0 及以上
+[下载 Android 版 0.5.2](../../releases/latest/download/Liji-CML-Tracker-0.5.2.apk) · [查看图文使用说明](USER_GUIDE.md) · Android 7.0 及以上
 
 > 本仓库只用于发布安装包、使用说明和更新记录，不公开粒迹的程序源代码。请只从本仓库的 Releases 页面下载安装包。
 
 ## 能做什么
 
 - 上传完整报告截图或医院小程序长截图，在手机本地识别血常规、生化结果、单位和报告中的参考范围。
+- 可复制内置提示词，让豆包按指定格式提取检查日期、检查机构、项目名称、检测结果、参考范围和单位，再粘贴回粒迹；保存前必须对照原报告核对。
 - 保存每次检查，按日期查看血常规、生化和 BCR-ABL1 融合基因记录。
 - 选择一个或多个指标查看趋势曲线；曲线和数据表可以放大查看，数据表还能保存成图片。
 - 记录 TKI 靶向药、护肝药、升板药、升白药及其他药物，按天打卡并查看剂量和调整备注。
@@ -26,7 +27,7 @@
 
 ## 安装方法
 
-1. 打开 [Releases](../../releases/latest)，下载 `Liji-CML-Tracker-0.5.1.apk`。
+1. 打开 [Releases](../../releases/latest)，下载 `Liji-CML-Tracker-0.5.2.apk`。
 2. 在 Android 手机的文件管理器或浏览器下载记录中打开 APK。
 3. 如系统提示，请只为当前使用的文件管理器或浏览器临时允许“安装未知应用”。
 4. 安装完成后可关闭该安装权限。
@@ -35,12 +36,12 @@
 安装包 SHA-256：
 
 ```text
-376ce6b3d37d9f04e0fc5abdba44a17c18d2a0cfd47cd6cfffc3f9e1f3fa647d
+1227977f77481b292b1d7d86d507c0f4063bc07fc1e48acf497355f03599f64e
 ```
 
 也可以下载仓库中的 [SHA256SUMS](SHA256SUMS) 文件进行核对。
 
-需要离线阅读时，可在 Releases 页面同时下载 Word 版《粒迹 0.5.1 使用说明》；在线版见 [USER_GUIDE.md](USER_GUIDE.md)。
+需要离线阅读时，可在 Releases 页面同时下载 Word 版《粒迹使用说明》；在线版见 [USER_GUIDE.md](USER_GUIDE.md)。
 
 ## 数据与隐私
 
